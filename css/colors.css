@@ -1,0 +1,42 @@
+/* VARIABLES
+--------------------------------------------------------- */
+:root {
+  /* COLORS */
+  --main-color: #c70063;
+  --secondary-color: #333333;
+  --third-color: #45547e;
+  --color-one: #ffffff;
+
+  /* GRADIENTS */
+  --main-gradient: linear-gradient(150deg, #292929, #333333, #292929);
+  --secondary-gradient: linear-gradient(150deg, #f152a2, #4e58eb);
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* COLOR & BACKGROUND
+--------------------------------------------------------- */
+.welcome-section {
+  background: var(--secondary-color);
+  color: var(--color-one);
+}
+
+header {
+  background: var(--main-color);
+}
+
+header a {
+  color: var(--color-one);
+}
+
+header a:hover {
+  background: var(--third-color);
+}
+
+.dash {
+  background: var(--main-color);
+}
+
+.developer-text {
+  color: var(--main-color);
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
