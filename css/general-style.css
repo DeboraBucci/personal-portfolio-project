@@ -1,0 +1,49 @@
+/* BASIC RESET
+--------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* NAVBAR
+--------------------------------------------------------- */
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 60px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-nav a {
+  padding: 20px 15px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* WELCOME SECTION
+--------------------------------------------------------- */
+.welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello-text {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.dash {
+  width: 20px;
+  height: 1px;
+  margin: 8px 8px 0 0;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
