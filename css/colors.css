@@ -6,6 +6,7 @@
   --secondary-color: #333333;
   --third-color: #45547e;
   --color-one: #ffffff;
+  --color-two: #36404b;
 
   /* GRADIENTS */
   --main-gradient: linear-gradient(150deg, #292929, #333333, #292929);
@@ -39,4 +40,21 @@ header a:hover {
 .developer-text {
   color: var(--main-color);
 }
+
+.projects {
+  background: var(--secondary-gradient);
+}
+
+.project-title {
+  background: var(--color-two);
+}
+
+.project-tile a {
+  color: var(--color-one);
+}
+
+.code {
+  color: transparent;
+}
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
