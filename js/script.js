@@ -1,21 +1,21 @@
 // VARIABLES :
 const code = document.querySelectorAll(".code");
 const projectsLinks = document.querySelectorAll(".projects-links");
-let p;
+let span;
 
 // PROJECTS-LINKS FINDER FUNCTION:
-const findP = function (event) {
+const findSpan = function (event) {
   const close = event.target.parentNode.closest(".projects-links");
-  p = close.querySelectorAll("span");
+  span = close.querySelectorAll("span");
 };
 
 // MOUSEOVER :
 projectsLinks.forEach((element) =>
   element.addEventListener("mouseover", function (event) {
-    findP(event);
-    p.forEach((p) => {
-      p.style.color = "#ff7300";
-      p.style.transition = "1s";
+    findSpan(event);
+    span.forEach((span) => {
+      span.style.color = "#ff7300";
+      span.style.transition = "1s";
     });
   })
 );
@@ -23,10 +23,10 @@ projectsLinks.forEach((element) =>
 // MOUSEOUT :
 projectsLinks.forEach((element) =>
   element.addEventListener("mouseout", function (event) {
-    findP(event);
-    p.forEach((p) => {
-      p.style.color = "transparent";
-      p.style.transition = "2s";
+    findSpan(event);
+    span.forEach((span) => {
+      span.style.color = "transparent";
+      span.style.transition = "1.5s";
     });
   })
 );
