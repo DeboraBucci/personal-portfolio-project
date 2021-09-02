@@ -1,0 +1,15 @@
+@media (min-width: 700px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .main-nav a {
+    margin-left: 50px;
+  }
+}
