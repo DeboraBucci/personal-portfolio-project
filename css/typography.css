@@ -34,6 +34,10 @@ h1 {
   font-size: 3rem;
 }
 
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+}
 .name-container {
   font-family: "Dancing Script", cursive;
 }
@@ -53,5 +57,9 @@ h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 1.2rem;
+}
+
+header a:hover {
+  font-weight: 500;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
