@@ -4,21 +4,26 @@
   /* COLORS */
   --main-color: #c70063;
   --secondary-color: #333333;
-  --third-color: #45547e;
+  --third-color: #4c556d;
   --color-one: #ffffff;
   --color-two: #36404b;
+  --color-three: #faab00;
+  --color-four: #d4d4d4;
 
   /* GRADIENTS */
   --main-gradient: linear-gradient(150deg, #292929, #333333, #292929);
-  --secondary-gradient: linear-gradient(150deg, #f152a2, #4e58eb);
+  --secondary-gradient: linear-gradient(160deg, #fa3296, #eda6ff, #5c64dd);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* COLOR & BACKGROUND
 --------------------------------------------------------- */
+body {
+  color: var(--color-one);
+}
+
 .welcome-section {
   background: var(--secondary-color);
-  color: var(--color-one);
 }
 
 header {
@@ -30,7 +35,8 @@ header a {
 }
 
 header a:hover {
-  background: var(--third-color);
+  background: var(--color-four);
+  color: var(--color-three);
 }
 
 .dash {
@@ -41,8 +47,8 @@ header a:hover {
   color: var(--main-color);
 }
 
-.projects {
-  background: var(--secondary-gradient);
+.projects-section {
+  background: var(--third-color);
 }
 
 .project-title {
@@ -55,6 +61,10 @@ header a:hover {
 
 .code {
   color: transparent;
+}
+
+.about-section {
+  color: var(--secondary-color);
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
