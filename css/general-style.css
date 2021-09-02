@@ -47,3 +47,35 @@ header {
   margin: 8px 8px 0 0;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* PROJECTS SECTION
+--------------------------------------------------------- */
+.projects {
+  padding: 50px 0;
+}
+
+.project-tile {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin: 0 auto 30px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img-container {
+  width: 80vw;
+  height: 80vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.img-container img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.project-title {
+  padding: 20px 0;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
