@@ -7,13 +7,23 @@
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
+/* GENERAL
+--------------------------------------------------------- */
+section {
+  min-height: 100vh;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 /* NAVBAR
 --------------------------------------------------------- */
 header {
   position: fixed;
+  z-index: 999;
   top: 0;
   width: 100vw;
   height: 60px;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
 
 .main-nav {
@@ -29,7 +39,6 @@ header {
 /* WELCOME SECTION
 --------------------------------------------------------- */
 .welcome-section {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,8 +57,59 @@ header {
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
+/* ABOUT SECTION
+--------------------------------------------------------- */
+.about-section {
+  padding-bottom: 100px;
+
+  /* flexbox ------------------------------------------ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+  /* background --------------------------------------- */
+  background-image: url("../images/about-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+}
+
+.line {
+  padding: 5px 0 15px 0;
+}
+
+.list-title {
+  padding-left: 30px;
+}
+
+.lists {
+  backdrop-filter: blur(5px);
+  padding: 30px 0;
+}
+
+h2 {
+  width: 100%;
+  padding: 70px 0 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+li {
+  padding: 0 10px;
+  margin: 20px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 /* PROJECTS SECTION
 --------------------------------------------------------- */
+
 h3 {
   padding-top: 100px;
 }
