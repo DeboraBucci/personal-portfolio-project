@@ -1,4 +1,4 @@
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   h3 {
     font-size: 2rem;
   }
@@ -9,7 +9,34 @@
     padding-right: 50px;
   }
 
+  .lists {
+    backdrop-filter: unset;
+    background: none;
+  }
+
+  ul {
+    border-radius: 20px;
+    background: var(--color-eight);
+    backdrop-filter: blur(10px);
+    padding: 20px 0;
+    margin: 30px 0;
+  }
+
   .main-nav a {
     margin-left: 50px;
+  }
+
+  .lists {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .list-container-1 {
+    width: 50%;
+  }
+
+  .about-section p {
+    max-width: 1100px;
   }
 }
