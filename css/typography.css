@@ -82,7 +82,8 @@ lh {
 /* OTHER FEATURES
 --------------------------------------------------------- */
 h2,
-.developer-text {
+.developer-text,
+.project-title {
   text-align: center;
 }
 
