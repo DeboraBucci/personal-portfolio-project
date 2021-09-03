@@ -19,47 +19,86 @@ a {
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-/* HEADER
+/* FONT FAMILIES
 --------------------------------------------------------- */
+lh {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h3,
+.developer-text {
+  font-family: "Quicksand", sans-serif;
+}
+
+.about-section,
+.hello-text {
+  font-family: "Raleway", sans-serif;
+}
+
+.name-container {
+  font-family: "Dancing Script", cursive;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* FONT SIZE
+--------------------------------------------------------- */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+lh {
+  font-size: 2rem;
+}
+
+.about-section {
+  font-size: 1.4rem;
+}
+
+.developer-text {
+  font-size: 1.5rem;
+}
 
 .main-nav a {
   font-size: 1.2rem;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-/* WELCOME SECTION
+/* OTHER FEATURES
 --------------------------------------------------------- */
-h1 {
-  font-family: "Karla", sans-serif;
-  font-size: 3rem;
+h2,
+.developer-text {
+  text-align: center;
 }
 
-h3 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.6rem;
-}
-.name-container {
-  font-family: "Dancing Script", cursive;
+.about-section {
+  font-weight: 500;
 }
 
 .hello-text {
-  font-family: "Raleway", sans-serif;
   font-size: 0.8rem;
-}
-
-.developer-text {
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Quicksand", sans-serif;
-}
-
-.project-title {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  font-size: 1.2rem;
 }
 
 header a:hover {
   font-weight: 500;
+}
+
+.about-section span {
+  font-weight: bold;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
