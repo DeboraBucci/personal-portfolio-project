@@ -46,16 +46,25 @@ h3,
 .name-container {
   font-family: "Dancing Script", cursive;
 }
+
+li b {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.questions-list p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.contact-section {
+  font-family: "Ubuntu", sans-serif;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* FONT SIZE
 --------------------------------------------------------- */
-h1 {
-  font-size: 3rem;
-}
-
+h1,
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -64,6 +73,10 @@ h3 {
 
 lh {
   font-size: 2rem;
+}
+
+li {
+  font-size: 1.2rem;
 }
 
 .about-section {
@@ -77,13 +90,27 @@ lh {
 .main-nav a {
   font-size: 1.2rem;
 }
+
+.hello-text {
+  font-size: 0.8rem;
+}
+
+li b,
+.questions-list p {
+  font-size: 1.4rem;
+}
+
+.contact-section a {
+  font-size: 1.5rem;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* OTHER FEATURES
 --------------------------------------------------------- */
 h2,
 .developer-text,
-.project-title {
+.project-title,
+.questions-list p {
   text-align: center;
 }
 
@@ -91,15 +118,11 @@ h2,
   font-weight: 500;
 }
 
-.hello-text {
-  font-size: 0.8rem;
-}
-
-header a:hover {
-  font-weight: 500;
-}
-
 .about-section span {
   font-weight: bold;
+}
+
+.contact-section p {
+  text-align: center;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
