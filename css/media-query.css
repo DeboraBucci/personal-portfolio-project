@@ -52,4 +52,25 @@
     transition: 0.5s;
     text-shadow: 0 0 0 var(--main);
   }
+
+  .about-section {
+    /* background --------------------------------------- */
+    background-image: url("../images/about-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+  }
+
+  .questions-list {
+    background: #1d1d1d;
+  }
+
+  .line {
+    border-bottom: 3px solid var(--color-nine);
+  }
+
+  h2 {
+    text-shadow: 5px 5px 5px var(--color-seven);
+  }
 }

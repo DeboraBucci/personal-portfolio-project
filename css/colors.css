@@ -14,6 +14,7 @@
   --color-seven: #220212;
   --color-eight: #292929be;
   --color-nine: #4a51be;
+  --color-ten: #1f1f1f;
 
   /* GRADIENTS */
   --main-gradient: linear-gradient(150deg, #292929, #333333, #292929);
@@ -70,18 +71,6 @@ lh {
   color: transparent;
 }
 
-.about-section {
-  color: var(--color-four);
-}
-
-.lists {
-  background: var(--color-eight);
-}
-
-.questions-list {
-  background: #1d1d1d;
-}
-
 .contact-section {
   background: var(--secondary);
 }
@@ -89,18 +78,23 @@ lh {
 .contact-section a {
   color: var(--main);
 }
+
+.about-section {
+  background-color: var(--color-ten);
+}
+
+.list-link {
+  color: var(--main);
+  border-bottom: 1px solid var(--main);
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* BORDERS & SHADOWS
 --------------------------------------------------------- */
 h2 {
   border-bottom: 5px solid var(--color-nine);
-  text-shadow: 5px 5px 5px var(--color-seven);
 }
 
-.line {
-  border-bottom: 3px solid var(--color-nine);
-}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* PSEUDO CLASSES
@@ -108,5 +102,9 @@ h2 {
 header a:hover {
   background: var(--color-four);
   color: var(--color-three);
+}
+
+.list-link:hover {
+  opacity: 0.5;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */

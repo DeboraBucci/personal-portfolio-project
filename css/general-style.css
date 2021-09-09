@@ -68,14 +68,6 @@ header {
   align-items: center;
   justify-content: center;
   /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-  /* background --------------------------------------- */
-  background-image: url("../images/about-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 }
 
 .line {
@@ -87,7 +79,6 @@ header {
 }
 
 .lists {
-  backdrop-filter: blur(5px);
   padding: 30px 0;
 }
 
@@ -108,6 +99,10 @@ ul {
 li {
   padding: 0 10px;
   margin: 20px;
+}
+
+.list-link {
+  padding-bottom: 4px;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
