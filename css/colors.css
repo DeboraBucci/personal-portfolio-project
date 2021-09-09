@@ -13,6 +13,7 @@
   --color-six: #b4226bad;
   --color-seven: #220212;
   --color-eight: #292929be;
+  --color-nine: #4a51be;
 
   /* GRADIENTS */
   --main-gradient: linear-gradient(150deg, #292929, #333333, #292929);
@@ -34,11 +35,11 @@ header {
 }
 
 h2 {
-  color: var(--main);
+  color: var(--color-nine);
 }
 
 lh {
-  color: var(--main);
+  color: var(--color-nine);
 }
 
 .welcome-section {
@@ -73,24 +74,32 @@ lh {
   color: var(--color-four);
 }
 
-.about-section span {
-  color: var(--color-five);
-}
-
 .lists {
   background: var(--color-eight);
+}
+
+.questions-list {
+  background: #1d1d1d;
+}
+
+.contact-section {
+  background: var(--secondary);
+}
+
+.contact-section a {
+  color: var(--main);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* BORDERS & SHADOWS
 --------------------------------------------------------- */
 h2 {
-  border-bottom: 5px solid var(--main);
+  border-bottom: 5px solid var(--color-nine);
   text-shadow: 5px 5px 5px var(--color-seven);
 }
 
 .line {
-  border-bottom: 3px solid var(--main);
+  border-bottom: 3px solid var(--color-nine);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
