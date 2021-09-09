@@ -39,4 +39,17 @@
   .about-section p {
     max-width: 1100px;
   }
+
+  .contact-section nav {
+    height: 150px;
+    flex-direction: row;
+    width: 80%;
+    max-width: 1000px;
+  }
+
+  .contact-section a:hover {
+    transform: translateY(10px);
+    transition: 0.5s;
+    text-shadow: 0 0 0 var(--main);
+  }
 }
